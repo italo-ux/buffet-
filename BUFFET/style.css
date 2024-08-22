@@ -1,0 +1,181 @@
+body, html {
+    margin: 0;
+    padding: 0; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    display:flex ;
+    width: 100%;
+    height: 48px;
+    background-color: rgb(212, 7, 7);  
+    align-items: center; 
+}
+.container ul{
+    color: #ffffff;
+    list-style-type: none;
+    display: flex;
+    gap: 200px;
+    
+}
+.container img{
+width: 59px;
+float: left;
+padding: 0;
+margin: 0;
+
+}
+.header{
+display:flex ;
+width: 100%;
+background-color: rgb(255, 255, 255);  
+align-items: center;
+
+
+}
+.header img{
+    display: flex;
+    width: 100px;
+  
+    
+   
+}
+.header ul{
+    justify-content: flex-end; 
+    color: #333333;
+    list-style-type: none;
+    display: flex;
+    margin-left: auto; 
+    gap: 100px;
+    margin-right: 80px;
+   font-size: 20px;
+   
+}  
+.header a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+.header a:hover{
+    color: rgb(234, 3, 3);
+    
+}
+.imagem img{
+    width: 100%;
+    height: 330px;
+   
+}
+.texto{
+    display: block;
+    margin: 0 auto;
+    color: #333333; 
+    width: 90%;
+  
+
+    
+  
+}
+.texto h1{
+    color:rgb(170, 3, 3);
+ text-align: left;
+}
+.cardapio{
+    display: block;
+    text-align: center;
+    width: 100%;
+
+}
+.cardapio h1{
+    display: block;
+    color:rgb(170, 3,3);
+    position: relative;
+    top: -50px; 
+}
+.comida{
+    text-align: center;
+    word-spacing: 100px;
+    
+}
+
+.comida li{
+    position: relative;
+    top: -10px; 
+    color: #ffffff;
+    list-style-type: none;
+    display: inline;
+
+  border-radius: 10px;
+   font-size: 30px;
+   background-color:rgb(194, 4, 4) ;
+   padding: 8px 17px;
+}
+.comida a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+.comida a:hover{
+    background-color: rgb(130, 4, 4) ;
+    border-radius: 10px;
+   
+}
+h1{
+text-align: center;
+color: rgb(216, 5, 5)
+}
+.calculadora{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+   color: rgb(170, 3,3);
+   font-size: 18px;
+}
+input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button{
+display: block;
+width: 100%;
+padding: 10px;
+font-size: 16px;
+background-color: rgb(202, 0, 0);
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+button:hover {
+    background-color: rgb(130, 4, 4)
+}
+.resultado{
+    text-align: left;
+}
+.carne{
+    display: inline-block;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+
+
+
+}
+.imagemc img{
+width: 300px;
+padding-top: 10px;
+
+}
+
+

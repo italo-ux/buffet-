@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Buffet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item img {
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.item h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.item .description {
+    margin: 5px 0;
+    color: #555;
+}
+
+.item .price {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+</style>
+<body>
+    <div class="menu">
+        <div class="item">
+            <img src="picanha.jpg" alt="Picanha">
+            <h2>Picanha</h2>
+            <p class="description">Corte de carne macio e suculento, assado na brasa.</p>
+            <p class="price">R$ 80,00/kg</p>
+        </div>
+        <div class="item">
+            <img src="costela.jpg" alt="Costela">
+            <h2>Costela</h2>
+            <p class="description">Costela bem temperada e cozida por várias horas.</p>
+            <p class="price">R$ 60,00/kg</p>
+        </div>
+        <!-- Adicione mais itens conforme necessário -->
+    </div>
+</body>
+</html>
